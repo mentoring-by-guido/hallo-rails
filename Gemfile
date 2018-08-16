@@ -18,7 +18,7 @@ gem 'autoprefixer-rails'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'bunny', ">= 2.6.4"
 gem 'sidekiq'
-gem 'ldclient-rb'
+gem 'rbflagr', '~> 0.1.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
